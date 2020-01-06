@@ -8,7 +8,7 @@ tested version : v1.13.1
 ```bash
 git clone https://github.com/mews-iidx/TFRecord2Image
 cd TFRecord2Image
-record2img.py <records_dir_path> <output_dir_path>
+python record2img.py <records_dir_path> <output_dir_path>
 ```
 
 ## args description

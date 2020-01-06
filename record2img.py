@@ -4,7 +4,7 @@ import os
 import tensorflow as tf
 
 def usage():
-    print(sys.argv[0] + ' <records_dir_path> <output_dir_path>')
+    print('Usage: ' + sys.argv[0] + ' <records_dir_path> <output_dir_path>')
 
 if __name__ == '__main__' :
     argc = len(sys.argv)
@@ -36,7 +36,6 @@ if __name__ == '__main__' :
         
             image = example.features.feature["image/encoded"].bytes_list.value[0]
             org_fname = example.features.feature["image/filename"].bytes_list.value[0].decode()
-            print(org_fname)
 
             f = open(output_path + '/' + org_fname, "wb")
             f.write(image)
