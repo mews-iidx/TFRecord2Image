@@ -15,5 +15,5 @@ args description
 
 | name                  | description                               |
 | ----                  | -----------                               |
-| records\_dir\_path    | convert `<records\_dir\_path>/*.tfrecord` |
-| output\_dir\_path     | save in `output\_dir\_path/*.jpg`         |
+| records\_dir\_path    | convert `<records_dir_path>/*.tfrecord` |
+| output\_dir\_path     | save in `output_dir_path/*.jpg`         |
