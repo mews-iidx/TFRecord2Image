@@ -15,5 +15,7 @@ record2img.py <records_dir_path> <output_dir_path>
 
 | name                  | description                               |
 | ----                  | -----------                               |
-| records\_dir\_path    | convert `<records_dir_path>/*.tfrecord` |
-| output\_dir\_path     | save in `output_dir_path/*.jpg`         |
+| records\_dir\_path    | convert `<records_dir_path>/*.tfrecord`   |
+| output\_dir\_path     | save in `<output_dir_path>/*.jpg`         |
+
+if the `output_dir_path` is not exists, It will be auto create.
